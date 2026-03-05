@@ -84,7 +84,3 @@ fashion_mnist.ipynb
 
 ---
 
-## Author
-
-Jay Sonawane
-IIT Bombay
