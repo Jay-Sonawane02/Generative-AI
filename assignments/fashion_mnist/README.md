@@ -66,9 +66,6 @@ The model achieves approximately **88% accuracy** on the test dataset.
 * TensorFlow / Keras
 * NumPy
 * Matplotlib
-* Scikit-learn
-* Jupyter Notebook
-
 ---
 
 ## How to Run
@@ -76,7 +73,7 @@ The model achieves approximately **88% accuracy** on the test dataset.
 Install required libraries:
 
 ```
-pip install tensorflow numpy matplotlib scikit-learn
+pip install tensorflow numpy matplotlib
 ```
 
 Run the notebook:
