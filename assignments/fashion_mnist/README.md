@@ -56,7 +56,7 @@ The neural network used in this project consists of:
 
 ## Results
 
-The model achieves approximately **88–90% accuracy** on the test dataset.
+The model achieves approximately **88% accuracy** on the test dataset.
 
 ---
 
