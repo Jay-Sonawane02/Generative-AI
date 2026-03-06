@@ -1,6 +1,6 @@
 # Image Generation with Diffusion Models
 
-This notebook explores **text-to-image generation using diffusion models** from the Hugging Face ecosystem. A diffusion model generates images by starting from random noise and gradually denoising it while being guided by a text prompt.
+This notebook explores **text-to-image generation using diffusion models** from the Hugging Face ecosystem. Diffusion models generate images by starting from random noise and gradually denoising it while being guided by a text prompt.
 
 ---
 
@@ -17,18 +17,32 @@ This notebook explores **text-to-image generation using diffusion models** from 
 
 Several parameters were used to control image generation:
 
-* **guidance_scale** – Controls how strongly the model follows the text prompt. Higher values make the image more aligned with the prompt.
-* **num_inference_steps** – Number of denoising steps. More steps generally produce higher quality images but increase generation time.
+* **guidance_scale** – Controls how strongly the model follows the text prompt. Higher values make the output more aligned with the prompt.
+* **num_inference_steps** – Number of denoising steps. More steps generally improve image quality but increase generation time.
 * **seed / generator** – Fixes the random initialization so the same prompt produces the same image across runs.
-* **negative_prompt** – Specifies features to avoid in the generated image (e.g., blurry or low quality).
+* **negative_prompt** – Specifies features the model should avoid (e.g., blurry, low quality).
 
 ---
 
-## Technologies Used
+## Required Libraries
 
-* Python
-* Hugging Face `diffusers`
-* PyTorch
-* Matplotlib
+Install the following libraries before running the notebook:
+
+```bash
+pip install diffusers transformers accelerate torch safetensors matplotlib
+```
+
+These libraries provide the diffusion pipeline, deep learning backend, and visualization tools required for image generation.
 
 ---
+
+## How to Run
+
+1. Install the required dependencies.
+2. Open the notebook in **Jupyter Notebook / VS Code**.
+3. Run the cells sequentially.
+4. Modify the text prompts to generate different images.
+
+---
+
+
