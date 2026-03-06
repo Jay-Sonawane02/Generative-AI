@@ -1,4 +1,4 @@
-# Text-to-SQL Query System
+# Text-to-SQL Query 
 
 This project implements a **Text-to-SQL pipeline** that allows users to query a structured database. The system converts a user's question into a SQL query using a LLM, executes the query on a database, and then explains the results.
 
@@ -42,7 +42,7 @@ pip install pandas google-genai
 ## How to run
 
 1. Place all CSV files in the project directory.
-2. Run the notebook or Python script.
+2. Run the notebook.
 3. Enter a question about the database when prompted.
 4. The system will generate SQL, execute the query, and explain the results.
 
