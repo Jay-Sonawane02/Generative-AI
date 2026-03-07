@@ -53,8 +53,8 @@ pip install sentence-transformers pandas numpy google-genai tqdm faiss-cpu
 ## How to run
 
 1. Place the dataset containing the articles in the project directory.
-2. Run the notebook or Python script.
-3. Enter a query related to the documents.
+2. Run the notebook.
+3. Enter a query.
 4. The system retrieves relevant chunks and generates an answer with source citations.
 
 
